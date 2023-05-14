@@ -37,9 +37,15 @@ pip install -r requirements.txt
 
 ### Creating Database
 
+- Collect positives and anchors using the function
+
 ### Data Preprocessing
 
+- Scale and resize the images
+
 ### Training Model
+
+- Training the model for `EPOCHS=20`
 
 ### Saving Model
 
@@ -48,3 +54,7 @@ pip install -r requirements.txt
 ## Author
 
 - [@pranjal]()
+
+```
+
+```
