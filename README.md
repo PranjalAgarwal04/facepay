@@ -6,6 +6,9 @@ Face Detection and Recognition Siamese Model and Kivy App.
 
 ## Resources
 
+- [Research Paper](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
+- [Peoples' Images](http://vis-www.cs.umass.edu/lfw/)
+
 ## Installation
 
 ## Steps
@@ -29,6 +32,8 @@ python -m venv venv
 ```bash
 pip install -r requirements.txt
 ```
+
+- Download the [peoples' images dataset](http://vis-www.cs.umass.edu/lfw/#download) from here.
 
 ### Creating Database
 
