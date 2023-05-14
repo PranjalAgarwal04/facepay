@@ -2,3 +2,4 @@ venv
 lfw.tgz
 lfw
 dataset
+training_checkpoints
