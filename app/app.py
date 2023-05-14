@@ -28,7 +28,7 @@ class CamApp(App):
         layout.add_widget(self.verification_label)
 
         self.model = tf.keras.models.load_model(
-            os.path.join('model', 'siamese_model_new.h5'), custom_objects={'L1Dist': L1Dist()})
+            os.path.join('model', 'siamese_model.h5'), custom_objects={'L1Dist': L1Dist()})
 
         self.capture = cv2.VideoCapture(0)
         Clock.schedule_interval(self.update, 1.0/33.0)
