@@ -5,3 +5,4 @@ dataset
 training_checkpoints
 model
 application_data
+app/__pycache__
